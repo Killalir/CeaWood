@@ -1,42 +1,55 @@
 body { 
     margin:0;
     padding:0;
-    font-family:helvetica, sans-serif; 
+    font-family:Comic Sans MS, Comic Sans, cursive;
+	background-color:#000000;
 }
 
 a { 
-    color:#00abff;
+    
     text-decoration:none; 
+	color:#ffffff;
 }
 
-h1 { 
-    font-weight:normal;
-    border-bottom:1px solid #bbb;
-    padding:0 0 10px 0;
-}
+h1{
+        width:150px;
+        text-align: center;
+        font-family: Comic Sans MS, Comic Sans, cursive;
+        font-size:30px;
+        cursor: pointer;
+        margin: 0 auto;
+		
+		color:#ffffff;
+    }
+
+
 
 h2 {
     font-weight:normal;
-    margin:30px 0 0;
+    margin:50px 0 0;
+	background-color:#000000;
+	color:#ffffff;
 }
 
 #content { 
     float:left;
     width:60%;
     padding:0 0 0 30px; 
+	
+}p{
+	color = #FFFFFF;
 }
-
 #sidebar { 
-    float:right;
-    width:30%;
-    padding:10px;
-    background:#efefef; 
-    height:100%;
+    float:left;
+    width:35%;
+    padding:0px;
+    background:#000000;
+    height:150%;
 }
 
 p.date { 
     color:#ccc;
-    font-family: georgia, serif;
+    font-family: Comic Sans MS, Comic Sans, cursive;
     font-size: 12px;
     font-style: italic; 
 }
@@ -45,6 +58,7 @@ p.date {
 .pagination { 
     margin:40px 0; 
     font-weight:bold;
+	color:#ffffff;
 }
 
 /* forms */
@@ -83,10 +97,18 @@ input[type=submit] {
     padding:10px;
 }
 .comment:nth-child(even) {
-    background:#efefef;
+    #000000;
 }
 .comment .info {
     font-weight:bold;
     font-size:12px;
     color:#666;
+}
+
+.side {
+	background:#000000;
+}
+
+p {
+		color: #ffffff;
 }
